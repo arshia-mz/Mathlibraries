@@ -187,26 +187,25 @@ int arccos(float x)
         }
     }
 }
-
+//19
 float speed(float distanse,float time)
 {
     float speed = distanse / time ;
     return speed;
 }
-
+//20
 float vrite(float distanse,float time)
 {
     float speed = distanse / time ;
     return speed;
 }
-
-
+//21
 int det2(int A[2][2])
 {
     long int C =( A[0][0]*A[1][1]) - (A[0][1]*A[1][0]);
     return C;
 }
-
+//22
 int det3(int A[3][3])
 {
     int C = A[0][0] * (A[1][1]*A[2][2] - A[1][2]*A[2][1]) -
