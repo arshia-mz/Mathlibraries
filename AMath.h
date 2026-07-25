@@ -214,3 +214,16 @@ int det3(int A[3][3])
         return C;
 }
     
+//23 , 24 the permutation and comination
+
+//23
+float combination(int n ,int r)
+{
+    return fuctoriel(n)/(float)(fuctoriel(n-r) * fuctoriel(r));
+}
+
+//24
+float permutation(int n ,int r)
+{
+    return fuctoriel(n)/(float)fuctoriel(n-r);
+}
